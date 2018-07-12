@@ -1,0 +1,7 @@
+E:\learn\String-Replace-ConsoleApp\bin\Debug\String-Replace-ConsoleApp.exe.config
+E:\learn\String-Replace-ConsoleApp\bin\Debug\String-Replace-ConsoleApp.exe
+E:\learn\String-Replace-ConsoleApp\bin\Debug\String-Replace-ConsoleApp.pdb
+E:\learn\String-Replace-ConsoleApp\obj\Debug\String-Replace-ConsoleApp.csprojAssemblyReference.cache
+E:\learn\String-Replace-ConsoleApp\obj\Debug\String-Replace-ConsoleApp.csproj.CoreCompileInputs.cache
+E:\learn\String-Replace-ConsoleApp\obj\Debug\String-Replace-ConsoleApp.exe
+E:\learn\String-Replace-ConsoleApp\obj\Debug\String-Replace-ConsoleApp.pdb
