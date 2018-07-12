@@ -6,4 +6,4 @@ Hello ##Username##! I have emailed you at ##UserEmail##. ##UserFirstName## ##Use
 
 will be converted to
 
-Hello John Doe! I have emailed you at john.doe@contentder.com . John Doe how is you days going on. Have a good day John Doe. 
+Hello John Doe! I have emailed you at john.doe@domain.com . John Doe how is you days going on. Have a good day John Doe. 
