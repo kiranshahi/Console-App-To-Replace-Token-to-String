@@ -18,7 +18,7 @@ namespace String_Replace_ConsoleApp
             List<Token> tokens = new List<Token>
             {
                 new Token(){ TokenValue = "##Username##", SampleValue="John Doe" },
-                new Token(){ TokenValue = "##UserEmail##", SampleValue="john.doe@contentder.com " },
+                new Token(){ TokenValue = "##UserEmail##", SampleValue="john.doe@domain.com " },
                 new Token(){ TokenValue = "##UserFirstName##", SampleValue="John" },
                 new Token(){ TokenValue = "##UserLastName##", SampleValue="Doe"}
             };
