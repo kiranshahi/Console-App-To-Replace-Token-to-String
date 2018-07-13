@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 
 namespace String_Replace_ConsoleApp
@@ -28,11 +29,8 @@ namespace String_Replace_ConsoleApp
         public string ReplaceTokenBySample(string StringValue)
         {
             List<Token> tokens = GetTokenList();
-            foreach (var token in tokens)
-            {
-                StringValue = StringValue.Replace(token.TokenValue, token.SampleValue);
-            }
-            return StringValue;
+            var pattern = $"(?<placeholder>{string.Join("|", tokens.Select(x => x.TokenValue))})";
+            return Regex.Replace(StringValue, pattern, m => tokens.SingleOrDefault(x => x.TokenValue == m.Groups["placeholder"].Value).SampleValue, RegexOptions.ExplicitCapture);
         }
 
         public static void Main(string[] args)
